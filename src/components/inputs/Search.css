@@ -1,0 +1,10 @@
+.Search {
+    padding: 1.2rem;
+    border-radius: var(--easy-border-radius);
+    background-color: var(--easy-dark-color);
+}
+
+.Search input {
+    background-color: transparent;
+    font-size: 1.6rem;
+}

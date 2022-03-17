@@ -1,0 +1,32 @@
+.MenuList {
+  width: 80%;
+
+  margin-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.MenuList p {
+  font-size: 1.4rem;
+  color: var(--font-dark-color);
+}
+
+.MenuList ul {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.MenuList ul li {
+  padding: 1rem 0rem;
+  font-size: 1.6rem;
+  color: var(--font-dark-color);
+  border-bottom: 1.5px solid var(--easy-dark-color);
+  cursor: pointer;
+  
+  margin-top: 1rem;
+}
+
+.MenuList ul li:hover {
+  color: #fff;
+}

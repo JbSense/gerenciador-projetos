@@ -1,0 +1,28 @@
+.SectionBar {
+  width: 100%;
+  padding: 0rem 3rem;
+  border-top: 1.5px solid var(--easy-dark-color);
+  border-bottom: 1.5px solid var(--easy-dark-color);
+  margin-top: 3rem;
+}
+
+.SectionBar ul {
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SectionBar ul li {
+  padding: 2rem 0rem;
+  font-size: 1.6rem;
+  color: var(--font-dark-color);
+  border-bottom: 2px solid transparent;
+}
+
+.SectionBar ul li:hover {
+  color: #fff;
+  border-bottom: 2px solid var(--content-blue);
+  cursor: pointer;
+}

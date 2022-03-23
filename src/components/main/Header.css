@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     border-top: 1.5px solid var(--easy-dark-color);
+    background: var(--medium-dark-color);
 }
 
 .Header ul {

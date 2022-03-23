@@ -1,0 +1,69 @@
+.Task {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  background: var(--medium-dark-color);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Task .sector {
+  width: 90%;
+  font-size: 1.4rem;
+  color: var(--font-dark-color);
+}
+
+.Task .task-name {
+  font-size: 1.8rem;
+}
+
+.Task .options {
+  font-size: 2rem;
+  color: var(--font-dark-color);
+}
+
+.Task .members-level {
+  width: 100%;
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.Task .members-level .members-image,
+.Task .members-level .level-task {
+  padding: 0rem 1rem;
+}
+
+.Task .members-level .members-image {
+  border-right: 2px solid var(--easy-dark-color);
+}
+
+.Task .members-level .members-image img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.Task .members-level .level-task p {
+  font-size: 1.6rem;
+  color: var(--font-dark-color);
+}
+
+.Task .bottom-bar {
+  width: 100%;
+  padding: 1rem;
+  border-top: 2px solid var(--easy-dark-color);
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Task .bottom-bar p {
+  font-size: 1.4rem;
+  color: var(--font-dark-color);
+}
